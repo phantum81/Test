@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 185188667}
   - component: {fileID: 185188666}
   - component: {fileID: 185188665}
+  - component: {fileID: 185188669}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -230,6 +231,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &185188669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 185188664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 712132781c149f64b9b3e29f55676fc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dad: {fileID: 963194229}
+  ad: 6
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -429,7 +444,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7f62a3102d28ec4a8ea62c0230e9c47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  test: {fileID: 185188664}
+  test: {fileID: 2026834818}
 --- !u!1 &2026834818
 GameObject:
   m_ObjectHideFlags: 0
